@@ -6,7 +6,7 @@ using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text.RegularExpressions;
 
-namespace FindCallsFrom
+namespace FunctionCallTracker
 {
     [Serializable]
     internal class ProfileData

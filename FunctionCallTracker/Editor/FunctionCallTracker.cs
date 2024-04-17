@@ -7,14 +7,14 @@ using UnityEngine.Profiling;
 using UnityEditorInternal;
 using System.Collections.Generic;
 
-namespace FindCallsFrom
+namespace FunctionCallTracker
 {
-    public class FindCallsFromWindow : EditorWindow
+    public class FunctionCallTrackerWindow : EditorWindow
     {
-        [MenuItem("Window/Analysis/FindCallsFrom")]
-        static void ShowFindCallsFrom()
+        [MenuItem("Window/Analysis/FunctionCallTracker")]
+        static void ShowFunctionCallTracker()
         {
-            GetWindow<FindCallsFromWindow>();
+            GetWindow<FunctionCallTrackerWindow>();
         }
 
         public string checkMarkerName = "GC.Alloc";
